@@ -1,0 +1,11 @@
+.navbarContainer{
+    margin-top: 20px;
+    @include elementFlex(row,space-around);
+    div{
+        width: 20%;
+        @include elementFlex(row,space-around);
+        span{
+            font-weight: 600;
+        }
+    }
+}

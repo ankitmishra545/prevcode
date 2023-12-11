@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.tableContainer{
+  border: 3px solid;
+
+}
+
+.pageItemsContainer{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.spinner{
+  display: none;
+}
+
+.paginationAndSpinner{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 50px;
+  align-items: center;
+  margin: 5px;
+}
+
+.headerContainer{
+  width: 100vw;
+  height: 50px;
+  background-color: rgb(20, 164, 221);
+}
+
+select{
+  margin-left: 500px;
+}
+
+.selectionDiv{
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.selectionLabel{
+  width: 250px;
+  padding-top: 6px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.paginationDiv,p{
+  box-sizing: content-box;
+  padding-top: 15px;
+}
+
+.mainContainer{
+  margin: 15px;
+}
+
+p{
+  color: gray;
+}
+
+strong{
+  color: black;
+}

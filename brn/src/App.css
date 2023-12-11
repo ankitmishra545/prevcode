@@ -1,0 +1,142 @@
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+}
+
+.background-default{
+  background-color: #364150;
+ min-height: 100vh;
+}
+
+.form-title{
+  color: #4DB3A5;
+  margin: 20px 0 25px;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.field{
+  padding: 3px 0 15px;
+}
+
+/* Login page css */
+
+.logo{
+  width: 18vw;
+  height: auto;
+}
+
+.login-field-container{
+  background-color: #ECEEF1;
+  max-width: 400px;
+  padding: 1px 30px 5px;
+  /* min-height: 300px; */
+  /* max-height: 500px; */
+}
+
+.field-label{
+  color: #829083;
+}
+
+.field input, .field select{
+  background-color: #DDE3EC;
+  padding: 10px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  color: #8290A3;
+}
+
+.field input:focus{
+  background-color: #E8F0FE;
+  border: 2px solid #CCC;
+}
+
+.log-in-button{
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #45B6AF;
+  color: #FFFFFF;
+  padding: .6em 1.2em;
+  transition: all .3s ease-in-out;
+}
+
+.log-in-button:hover{
+  background-color: #3ea49d;
+}
+
+.forgot-password-link{
+ color: #5B9BD1;
+ transition: color .3s ease-out;
+}
+
+.forgot-password-link:hover{
+  color: #366186;
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+.create-account-link{
+  background-color: #6C7A8D;
+  height: 50px;
+}
+
+.create-account-link-text{
+  color: #C3CEDD;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.create-account-link-text:hover{
+  text-decoration: underline 2px;
+}
+
+/* Sign Up page css */
+
+.file-upload{
+  background-color: #cccccc;
+  border: 1px solid black;
+  padding: 2px 5px;
+}
+
+.back-button{
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #6C7A8D;
+  background-color: #FFFFFF;
+  padding: .6em 1.2em;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+.back-button:hover{
+  background-color: #fafaff;
+  color: #3ea49d;
+}
+
+.breadcrumb{
+  background-color: #F7F7F7;
+  padding: 8px 15px;
+  color: #88889A;
+}
+
+.page-title{
+  font-weight: 300;
+  color: #666666;
+  font-size: large;
+  display: flex;
+  flex-wrap: wrap;
+}
+

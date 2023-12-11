@@ -1,0 +1,364 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+button{
+  border: none;
+}
+
+.headerDiv{
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.outlet{
+  background-color: red;
+  padding: 30px;
+}
+
+.servicesDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicesDiv div{
+  margin: 10px;
+}
+
+.linksContent{
+  background-color: bisque;
+  width: 100vw;
+  padding: 20px 20px 0 20px;
+  height: 92vh;
+  /* overflow-y: scroll; */
+  /* overflow-x: hidden; */
+}
+
+.navContainer{
+  margin-top: 30px;
+}
+
+.navContainer a{
+  color: rgb(10, 10, 156);
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  width: 150px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.productsDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.productsDiv div{
+  margin: 15px;
+}
+
+.loginDiv{
+  background-color: aqua;
+  width: 30%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 2px solid gray;
+}
+
+select{
+  width: 100px;
+}
+
+.productCardTitle{
+  text-align: center;
+}
+
+.selectAndLogoutDiv{
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.selectAndLogoutDiv a{  
+  color: rgb(255, 183, 0);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.selectAndLogoutDiv a:hover{
+  text-decoration:underline;
+  color: beige;
+}
+
+/* follow table*/
+
+.dataTable, .dataTable th, .dataTable td{
+  border: 1px solid black;
+  text-align: center;
+}
+
+.verticalAccordian{
+  margin-top: 0px;
+  width: 10vw;
+  height: 96%;
+  background-color: #e8f4f4;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid  #c7ecec;
+  /* transition: 0.3s; */
+}
+
+.k-input-value-text{
+  overflow-y: scroll;
+  height: 300px;
+}
+
+.verticalAccordianCollapse{
+  width: 5vw;
+  height: 96%;
+  background-color: #ecf3f3;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid  #c7ecec;
+  /* transition: 0.3s; */
+}
+
+.accordianDiv{
+  display: flex;
+}
+
+.accordianContainer{
+  width: 100px;
+  height: 88vh;
+}
+
+.topAccordian{
+  height: 20vh;
+  background-color: #e8f4f4;
+  border-radius: 5px;
+  /* transition: 0.3s; */
+}
+
+.topAccordianCollapse{
+  height: 8vh;
+  background-color: #e8f4f4;
+  border-radius: 5px;
+  /* transition: 0.3s; */
+}
+
+.topAccordianButton{
+  height: 8vh;
+  background-color: #e8f4f4;
+  border-radius: 2px;
+  border: 2px solid  #c7ecec;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.topAccordianButton button{
+  width: 35px;
+}
+
+.tableDiv{
+  width: 89vw;
+  overflow-x: scroll;
+  border: 3px solid gray;
+}
+
+.tableDiv tbody{
+  width: 4650px;
+  display: block;
+  overflow-y: auto;
+  height: 70vh;
+  overflow-x: hidden;
+}
+
+.tableDiv thead tr{
+  display: block;
+}
+
+.tableDiv thead th{
+  height: 50px;
+  background-color: rgb(149, 149, 231);
+}
+
+.tableDiv th,
+.tableDiv td{  
+  min-width: 150px;
+}
+
+.tableDiv td{  
+  font-size: small;
+}
+
+.subTotalRow{
+  color: orangered;
+  font-weight: 600;
+  padding: 40px;
+}
+
+.subTotalRow td{
+  background-color: rgb(240, 228, 216);
+  padding: 5px;
+}
+
+.indexCell p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid black;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* sign up form css*/
+
+.signUpFormDiv{
+  width: 180px;
+  background-color: aquamarine;
+}
+
+.signUpFormDiv span{
+  margin: 10px;
+  position: relative;
+}
+
+.signUpFormDiv span label{
+  position: absolute
+}
+
+/* menubar  */
+
+.menuBar{
+  width: 270px;
+  height: 100vh;
+  font-size: 1.3rem;
+  background-color: bisque;
+  padding: 15px 15px 0 20px;
+  overflow-y: scroll;
+  font-weight: 600;
+}
+
+.menuBar::-webkit-scrollbar {
+  display: none;
+}
+
+.p-menuitem .p-menuitem-text{
+  font-weight: 300;
+  color: rgb(19, 4, 222);
+  padding: 3px;
+  text-shadow: 0.5px 0.5px rgb(125, 175, 241);
+}
+
+.p-menuitem-text{
+  font-size: 1rem;
+}
+
+.p-panelmenu-header{
+  padding: 14px;
+  margin: 2px;
+}
+
+.p-menuitem{
+  width: 200px;
+  margin-left: 20px;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.p-panelmenu-icon,
+.p-menuitem-icon{
+  color: orangered; 
+  order: 1;
+  margin-left: auto; 
+}
+
+/* select */
+
+.selectDiv{
+  display: flex;
+  width: 100%;
+  height: 60%;
+  color:snow;
+}
+
+/* multi select */
+
+.k-treeview-group{
+  height: fit-content;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.k-treeview-item:first-child {
+  background-color: white;
+  /* color: aliceblue; */
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  margin-bottom: 5px;
+}
+
+.k-checkbox:first-child{
+  margin-left: 5px;
+}
+
+.k-treeview-item:first-child .k-checkbox{
+  border: 1px inset gray;
+  width: 20px;
+  height: 20px;
+  margin-left: 0;
+}
+
+.k-label{
+  margin-top: 4px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+
+/*dropdownList*/
+
+.k-checkbox-label{
+  font-size: larger;
+  font-weight: 600;
+}
+
+.k-list-header{
+  height: 35px;
+  padding-top: 3px;  
+}
+
+.k-list-item span{
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.k-input-inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+span.k-input-inner{
+  font-style: italic;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

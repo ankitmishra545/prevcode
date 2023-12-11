@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.userListStyle{
+  list-style: none;
+  margin: 2px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  width: 270px;
+}
+
+.buttonStyle{
+  background-color: inherit; 
+  border: none;
+  width: 12px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userListContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

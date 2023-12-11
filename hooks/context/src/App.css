@@ -1,0 +1,28 @@
+.panel-dark{
+  background-color: black;
+  color: white;
+  width: 200px;
+  padding: 10px;
+}
+
+.panel-light{
+  background-color: azure;
+  color: black;
+  width: 200px;
+  padding: 10px;
+}
+
+.button-dark{
+  background-color: white;
+  color: black;
+}
+
+.button-light{
+  background-color: black;
+  color: white;
+}
+
+.section{
+  border: 1px solid gray;
+  padding: 20px;
+}

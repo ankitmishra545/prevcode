@@ -1,0 +1,4 @@
+.linksAndPage{
+    display: flex;
+    flex-direction: column;
+}

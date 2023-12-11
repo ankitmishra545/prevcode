@@ -1,0 +1,188 @@
+
+.loginDiv,.forgotPageDiv{
+  background-color: aqua;
+  width: 30%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 2px solid gray;
+}
+
+img{
+  border-radius: 40%;
+  width: 350px;
+  height: 40vh;
+  background-color: azure;
+  border: 1px solid black;
+  box-shadow: 2px 2px gray;
+}
+
+
+.homeContainer{
+  height: 100vh;
+  background-color: rgb(218, 199, 236);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.homeContainer table{
+  border: 2px solid black;
+  width: 35vw;
+  height: 300px;
+}
+
+.homeContainer table td{
+  text-align: center;
+}
+.homeContainer table th{
+  text-align: center;
+}
+
+.homeContainer th,.homeContainer td{
+  border: 1px solid gray;
+}
+
+.homePageHeader{
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  background-color: rgb(43, 202, 226);
+}
+
+.App {
+  text-align: center;
+}
+
+.pageItemsContainer{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.spinner{
+  display: none;
+}
+
+.paginationAndSpinner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 50px;
+  align-items: center;
+  margin: 5px;
+}
+
+.headerContainer{
+  padding-right: 50px;
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(20, 164, 221);
+  font-weight: 700;
+}
+
+.headerContainer a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(15, 15, 81);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 0 10px;
+}
+
+select{
+  margin-left: 500px;
+}
+
+.selectionDiv{
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.selectionLabel{
+  width: 250px;
+  padding-top: 6px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.paginationDiv,p{
+  box-sizing: content-box;
+  padding-top: 15px;
+}
+
+.mainContainer{
+  margin: 25px;
+}
+
+p{
+  color: gray;
+}
+
+strong{
+  color: black;
+}
+
+.buttonInForgot{
+  display: flex;
+  justify-content: space-around;
+}
+
+.messageDiv{
+  background-color: bisque;
+  width: 400px;
+  height: 300px;
+  border: 2px solid gray;
+  padding: 15px;
+}
+
+.messageContainer input{
+  width: 200px;
+  height: 40px;
+}
+
+.messageContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  border-right: 2px solid orangered;
+  padding: 15px;
+}
+
+.messagesDiv{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 750px;
+}
+
+.messagesDiv div{
+  margin-bottom: 10px;
+}
+
+.inputAndCount{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputAndCount p{
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.messagePage{
+  display: flex;
+  flex-wrap: wrap;
+}

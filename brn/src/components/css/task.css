@@ -1,0 +1,93 @@
+.tasks-container, .message-page-container, .create-request-page, .apply-leave-page{
+    padding: 30px;
+}
+
+.assigned-tasks-table-container{
+    overflow-y: scroll;
+}
+.assigned-tasks-table-container table, .message-table{
+    width: 100%;
+}
+
+.review-pending{
+    background: #DFF0D8;
+    color: #3C763D;
+}
+
+.create-request-page label{
+ width: 25%;
+ padding: 10px;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+}
+
+.form-group{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-group > div{
+    width: 50%;
+    padding: 10px 30px;
+}
+
+ .form-group > div select{
+    width: 70%;
+    height: 50px;
+    padding: 5px 10px;
+}
+
+ .form-group > div textarea{
+    height: 120px;
+    padding: 10px;
+    width: 70%;
+}
+
+.request-footer{
+    background: #F5F5F5;
+    height: 100px;
+    padding-left: 27%;
+    display: flex;
+    align-items: center;
+}
+
+.request-footer button{
+    background: #26A69A;
+    color: #FFFFFF;
+    border: none;
+    padding: 7px 14px;
+    margin-right: 8px;
+}
+
+.request-footer button:last-child{
+    background: #E5E5E5;
+    color: #333333;
+}
+
+@media (max-width: 991px){
+    .form-group{
+        text-align: left;
+        flex-direction: column;
+    }
+    
+    .form-group label{
+        border: none;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 10px 15px 0;
+    }
+    
+    .form-group div{
+        width: 100%;
+    }
+    .form-group input{
+        width: 100%;
+    }
+    
+    .activity-details-footer{
+        justify-content: flex-start;
+    }
+    
+    }

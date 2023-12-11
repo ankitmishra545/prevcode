@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbarContainer {
+  margin-top: 10px;
+  padding-left: 10%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarContainer div {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbarContainer div span {
+  font-weight: 600;
+}
+
+.homeContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeContainer section {
+  max-width: 100%;
+  margin-top: 20px;
+}
+.homeContainer section h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.productsWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.productsWrapper div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 220px;
+  height: 260px;
+  padding: 10px;
+  margin: 5px;
+  background-color: white;
+  box-shadow: 3px 3px whitesmoke;
+}
+.productsWrapper div button {
+  background-color: rgb(83, 83, 243);
+  padding: 3px;
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
+  color: beige;
+  font-style: 1.2rem;
+  border: none;
+  cursor: pointer;
+}
+.productsWrapper img {
+  height: 80px;
+  width: 60px;
+}
+
+.cartWrapper {
+  padding: 20px;
+}
+.cartWrapper :first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cartWrapper .cartCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  padding: 5px;
+  background-color: white;
+}
+.cartWrapper .cartCard img {
+  width: 50px;
+  height: 50px;
+}
+.cartWrapper .cartCard button {
+  padding: 2px;
+}
+
+.buttonAfterAdded {
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(83, 83, 243);
+  border-radius: 5px;
+  padding: 0 7px;
+}
+.buttonAfterAdded button {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  max-width: 15px;
+}
+
+.clearButton {
+  border: none;
+  background-color: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  color: red;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,78 @@
+.customerTitle{
+    font-size: 13px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.customerButton{
+    font-size: 13px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    position: relative;
+    right: 3px;
+}
+
+/* .mansfieldButton{
+    border: none;
+    color: white;
+    background-color: #00B5DC;
+    margin: 0 3px 0 0;
+    padding: 1px 5px;
+    height: 25px;
+    border-radius: 3px;
+    font-size: 12px;
+} */
+
+.activeCell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mansfieldCustomerHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    margin-bottom: 0;
+}
+
+.mansfieldCustomerButtonContainer{
+    display: flex;
+}
+
+.mergedIcon{
+    position: relative;
+    right: 11px;
+    /* top: 1px; */
+    color: whitesmoke;
+    z-index: 10;
+    width: 3px;
+    height: 2px;
+}
+
+/* ManageDivisionForm */
+
+.formLabel{
+    font-size: 13px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.requiredLabelMarks{
+    color: red;
+    font-size: 17px;
+    height: 18px;
+    position: relative;
+    bottom: 2px;
+}
+
+.buttonColor{
+    background-color: #F05050;
+    color: aliceblue;
+}
+
+.buttonColor:hover{
+    background-color: #F05050;
+    color: aliceblue;
+}
+

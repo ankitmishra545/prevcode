@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.tableContainer{
+  width: 100vw;
+}
+
+.pageItemsContainer{
+  width: 100vw;
+  display: flex;
+}
+
+.spinner{
+  display: none;
+}
+
+.paginationAndSpinner{
+  display: flex;
+  padding-left: 50px;
+  margin: 5px;
+}
+
+.headerContainer{
+  width: 100vw;
+  height: 50px;
+  background-color: rgb(20, 164, 221);
+}

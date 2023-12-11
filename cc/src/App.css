@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+div{
+  margin: 10px;
+}
+
+label{
+  display: inline-block;
+  width: 80px;
+}

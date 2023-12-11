@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.allDiv{
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+
+
+/* CustomObservable.js CSS*/
+
+ul.manualList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.manualList li {
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+  border-radius: 5px;
+  padding: 7px 13px;
+  margin-bottom: 10px;
+}
+
+ul.manualList.error li {
+  color: red;
+  background: #ff00000a;
+  border-color: darkred;
+}
+
+ul.manualList.completed li {
+  color: green;
+  background-color: #00800012;
+  border-color: darkgreen;
+}

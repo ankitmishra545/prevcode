@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.headerDiv{
+  width: 100vw;
+  height: 70px;
+  background-color: rgb(83, 83, 243);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 20px;
+  border: 2px solid rgb(8, 8, 197);
+}
+
+.servicesDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicesDiv div{
+  margin: 10px;
+}
+
+.linksContent{
+  background-color: bisque;
+  width: 100vw;
+  padding: 40px 50px 0 50px;
+  height: 539px;
+  overflow-y: scroll;
+}
+
+.navContainer{
+  margin-top: 50px;
+}
+
+.navContainer a{
+  color: rgb(10, 10, 156);
+  text-decoration: none;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.offcanvas-width{
+  width: 100px;
+}
+
+.productsDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.productsDiv div{
+  margin: 15px;
+}
+
+.loginDiv,.forgotPageDiv{
+  background-color: aqua;
+  width: 30%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 2px solid gray;
+}

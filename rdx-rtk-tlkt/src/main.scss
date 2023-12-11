@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@mixin elementFlex($fd: row,$jc: center,$ai: center){
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+.navbarContainer{
+    margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 5%;
+    @include elementFlex(row,space-between);
+    div{
+        width: 200px;
+        @include elementFlex(row,space-around);
+        span{
+            font-weight: 600;
+        }
+    }
+}
+
+.homeContainer{
+    margin-top: 20px;
+    @include elementFlex(column);
+    section{
+        max-width: 100%;
+        margin-top: 20px;
+        h3{
+            @include elementFlex;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.productsWrapper{
+    @include elementFlex(row);
+    flex-wrap: wrap;
+    div{        
+        @include elementFlex(column, space-around);
+        width: 220px;
+        height: 260px;
+        padding: 10px;
+        margin: 5px;
+        background-color: white;
+        box-shadow: 3px 3px whitesmoke;
+        button{
+            background-color: rgb(83, 83, 243);
+            padding: 3px;
+            width: 80px;
+            height: 35px;
+            border-radius: 5px;
+            color: beige;
+            font-style: 1.2rem;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    img{
+        height: 80px;
+        width: 60px;
+    }
+}
+
+.cartWrapper{
+    padding: 20px;
+    :first-child{
+        @include elementFlex(row,space-between)
+    }
+    .cartCard{
+        @include elementFlex(row,space-around);
+        margin-top: 15px;
+        padding: 5px;
+        background-color: white;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        button{
+            padding: 2px;
+        }
+    }
+}
+
+.buttonAfterAdded{
+    width: 80px;
+    @include elementFlex;
+    background-color: rgb(83, 83, 243);
+    border-radius: 5px;
+    padding: 0 7px;
+    button{
+        margin: 0;
+        padding: 0;
+        font-size: 1.5rem;
+        max-width: 15px;
+    }
+}
+
+.clearButton{
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    color: red;
+}
+

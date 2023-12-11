@@ -1,0 +1,146 @@
+.home-page-container{
+    height:auto;
+    padding: 30px;
+}
+
+.home-page-container div i{
+    color: #AAAAAA;
+    padding-right: 12px;
+}
+
+.profile-container{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-container ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0px;
+}
+
+.profile-container ul li{
+    text-align: center;
+}
+
+.profile-container img{
+    width: 230px;
+    height: 255px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 5px gray;
+    padding: 5px;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.profile-container ul li:not(:first-child){
+color: #5B9BD1;
+font-size: 13px;
+font-weight: 600;
+}
+
+.profile-container ul li:first-child{
+    color: #5a7391;
+}
+
+.profile-table-container{
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+
+.profile-table caption{
+    width: 400px;
+    color: #E26A6A;
+    caption-side: top;
+    text-align: start;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.profile-table caption i{
+    color: #E26A6A;
+}
+
+table, th,td{
+    border: 1px solid;
+}
+
+th,td{
+    padding: 5px ;
+}
+
+.profile-table td{
+    text-align: center;
+}
+
+.profile-table tr:nth-child(odd){
+    background-color: #F7F7F7;
+}
+
+.attendance-details-container{
+    border: 1px solid #3598DC;
+    margin-top: 25px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.attendance-accordian{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    background: #3598DC;
+    padding: 0 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.table-form-field{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.label-input-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+ .label-input-container label{
+    padding: 5px;
+}
+
+.label-input-container select{
+    height: 30px;
+    width: 80px;
+}
+
+.label-input-container input{
+    width: 65%;
+}
+
+.attendance-details-table-container{
+    overflow-x: auto;
+    padding: 0 10px;
+}
+
+.attendance-details-table{
+    width: 100%;
+}
+
+.attendance-details-table th{
+    padding: 5px 8px;
+}
+
+.attendance-details-table tr:nth-child(even){    
+    background-color: #F7F7F7;
+}
+
+.absentCell {
+    color: #a94442;
+    background-color: #f2dede;
+}
